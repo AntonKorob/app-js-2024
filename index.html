@@ -12,28 +12,63 @@
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
         <title>My site</title>
     </head>
     <body>
         <div class="container">
-            <div class="header m-4">
-                <h1>My site</h1>
-<button class="btn btn-success" type="button">
-    <a href="index.html">Домой</a>
-</button>
-<button class="btn btn-success" type="button">
-    <a href="calculator.html">Калькулятор</a>
-</button>
-<button class="btn btn-success" type="button">
-    <a href="notes.html">Заметки</a>
-</button>
-<button  type="button">
-    <button  type="button">
-    <a class="text-decoration-none" href="clipboard.html">Копирование</a>
-</button>
-            </div>
-        </div>
 
-        
+            <div class="d-flex justify-content-start mt-3">
+
+                <button class="btn btn-success m-2" type="button">
+                    <a class="text-decoration-none" href="index.html">Домой</a>
+                </button>
+                <button class="btn btn-success m-2" type="button">
+                    <a class="text-decoration-none"
+                        href="calculator.html">Калькулятор</a>
+                </button>
+                <button class="btn btn-success m-2" type="button">
+                    <a class="text-decoration-none"
+                        href="notes.html">Заметки</a>
+                </button>
+                <button class="btn btn-success m-2" type="button">
+                    <a class="text-decoration-none" class="text-decoration-none"
+                        href="clipboard.html">Копирование</a>
+                </button>
+            </div>
+
+            <div class="d-flex justify-content-end">
+                <button id="dark-mode-button">&llhard;</button>
+            </div>
+
+            <div class="main">
+                <h1>My site</h1>
+                <div class="about us">
+                    <div class="row">
+                        <div class="col">
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quas voluptates odio, in illo
+                                reprehenderit nesciunt aperiam. Reprehenderit,
+                                accusamus! Neque et possimus placeat!Lorem ipsum
+                                dolor sit amet consectetur
+                                adipisicing elit. Quibusdam non autem ut
+                                reiciendis, reprehenderit et provident soluta
+                                nobis qui impedit perferendis quia!</p>
+                        </div>
+                        <div class="col">
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quibusdam non autem ut
+                                reiciendis, reprehenderit et provident soluta
+                                nobis qui impedit perferendis quia!Lorem ipsum
+                                dolor sit amet consectetur
+                                adipisicing elit. Quibusdam non autem ut
+                                reiciendis, reprehenderit et provident soluta
+                                nobis qui impedit perferendis quia!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="app_dark.js"></script>
+        </div>
     </body>
 </html>

@@ -16,25 +16,31 @@
     </head>
     <body>
         <div class="container">
-            <button class="btn btn-success" type="button">
-                <a href="index.html">Домой</a>
-            </button>
-            <button class="btn btn-success" type="button">
-                <a href="calculator.html">Калькулятор</a>
-            </button>
-            <button class="btn btn-success" type="button">
-                <a href="notes.html">Заметки</a>
-            </button>
-            <button  type="button">
-                <button  type="button">
-                <a class="text-decoration-none" href="clipboard.html">Копирование</a>
-            </button>
-            
-            <div class="second w-50 m-2 p-2">
-                <h1>Заметки</h1>
-                <input class="form-control" type="text" id="title"
+            <div class="header mt-5">
+
+                <button class="btn btn-success" type="button">
+                    <a class="text-decoration-none" href="index.html">Домой</a>
+                </button>
+                <button class="btn btn-success" type="button">
+                    <a class="text-decoration-none" href="calculator.html">Калькулятор</a>
+                </button>
+                <button class="btn btn-success" type="button">
+                    <a class="text-decoration-none" href="notes.html">Заметки</a>
+                </button>
+                <button class="btn btn-success" type="button">
+                <a class="text-decoration-none" class="text-decoration-none"
+                    href="clipboard.html">Копирование</a>
+                </button>
+            </div>
+            <div class="d-flex justify-content-end">
+                <button id="dark-mode-button">&llhard;</button>
+            </div>
+                
+                <div class="second w-50 m-2 p-2">
+                    <h1>Заметки</h1>
+                    <input class="form-control" type="text" id="title"
                     placeholder="Введите название">
-    
+                    
                 <button class="btn btn-outline-info w-100 mb-2"
                     id="create">Добавить</button>
     
@@ -45,5 +51,6 @@
         <script src="app.js"></script>
         <script src="app2.js"></script>
         <script src="app3.js"></script>
+        <script src="app_dark.js"></script>
     </body>
 </html>
